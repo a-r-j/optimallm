@@ -39,7 +39,7 @@ Output:
 
 Code is injected into the prompt by replacing `$code`. Similarly, the function name can be injected by replacing `$name`.
 
-```
+```python
 prompt = "Make this function go brrr: \n $code"
 opt(calculate_sum, prompt)
 
